@@ -1,19 +1,21 @@
+
+
 @import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Sahitya:wght@400;700&display=swap');
 body {
-  height: 100vh;
+  height: 95vh;
   display: flex;
   align-items: center;
   justify-content: center;
   background-size: 1000px;
-  background-image: url("tiamo.png");
+  background-image: url("./imagens/namorados.jpg");
   background-position: center center;
 }
 .paper {
   background-image: url("cartas.jpg");
   background-size: 500px;
   background-position: center center;
-  padding: 20px 100px;
-  transform: rotateZ(-5deg);
+  padding: 10px 50px;
+  transform: rotateZ(3deg);
   box-shadow: 1px 15px 20px 0px rgba(0,0,0,0.5);
   position: absolute;
   cursor: pointer;
@@ -27,14 +29,23 @@ body {
 }
 .paper.image {
   padding: 10px;
+  width: 20%;
 }
 .paper.image p {
   font-size: 30px;
 }
 
+#maloka{
+  width: 22%;
+  text-align: center;
+  margin: 0;
+  
+}
+
 .paper .title{
   font-size: 50px;
   font-weight: 600;
+
 }
 
 .paper .adjetivos{
@@ -51,8 +62,10 @@ body {
 
 img {
   max-height: 200px;
-  width: 100%;
+  width: 52%;
+  height: 500px;
   user-select: none;
+  
 }
 .paper.heart::after {
   content: "";
